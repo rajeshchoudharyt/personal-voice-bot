@@ -21,7 +21,7 @@ export default function Controls() {
 		<button
 			disabled={status.value === "connecting"}
 			onClick={handleClick}
-			className="btn btn-accent mx-auto mt-2 w-32 disabled:bg-accent disabled:text-accent-content hover:bg-accent/90">
+			className="btn btn-accent mx-auto mt-2 w-32 text-accent-content disabled:bg-accent disabled:text-accent-content hover:bg-accent/90">
 			{status.value === "connected"
 				? "Stop"
 				: status.value === "disconnected"

@@ -38,8 +38,8 @@ export default function Messages() {
 						<div
 							className={`chat-bubble ${
 								role === "assistant"
-									? "chat-bubble-secondary"
-									: "chat-bubble-accent"
+									? "chat-bubble-secondary bg-secondary text-secondary-content"
+									: "chat-bubble-accent bg-accent text-accent-content"
 							}`}>
 							{content}
 						</div>

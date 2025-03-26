@@ -9,6 +9,9 @@ import { db } from "@/firebase";
 const secretKey = process.env.HUME_SECRET_KEY;
 const apiKey = process.env.HUME_API_KEY;
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
 export default async function Page() {
 	let persona = "helpful asssitant";
 
